@@ -1,0 +1,7 @@
+sentence-transformers
+torch
+pdfplumber
+networkx
+scikit-learn
+pyvis
+faiss-cpu

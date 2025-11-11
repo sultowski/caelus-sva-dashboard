@@ -1,0 +1,31 @@
+
+# Repositório Git Pronto — CAELUS SVA
+
+Gerado automaticamente: 2025-11-11T00:36:07.031299Z
+
+## Estrutura
+Este diretório contém o código pronto para publicação.
+
+## Como criar o repositório no GitHub
+
+1. Crie o repositório em https://github.com/new
+   - Nome: caelus-sva-dashboard
+   - Público
+   - Adicione descrição conforme o manifesto
+
+2. No terminal, execute:
+
+   git init
+   git remote add origin https://github.com/sultowski/caelus-sva-dashboard.git
+   git add .
+   git commit -m "CAELUS SVA — MVP inicial"
+   git branch -M main
+   git push -u origin main
+
+## Após o push
+- Acesse https://share.streamlit.io
+- Faça login com GitHub
+- Deploy com:
+  Repository: sultowski/caelus-sva-dashboard
+  Branch: main
+  Main file path: app.py

@@ -1,0 +1,9 @@
+# Não subir PDFs (opcional se quiser manter PDFs privados/localmente)
+docs/*.pdf
+# Índice e dados gerados
+faiss_index.bin
+chunks.json
+graph.html
+__pycache__/
+*.pyc
+.env
